@@ -1,8 +1,12 @@
+
 body {
   display: flex;
   flex-direction: column;
   height: 100vh;
   margin: 0;
+  background-color: #f0f4f8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
 }
 
 main {
@@ -12,14 +16,63 @@ main {
   height: auto;
 }
 
+
 article {
   flex: 2;
   overflow-y: auto;
-  padding: 10px;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 aside {
   flex: 1;
   overflow-y: auto;
-  padding: 10px;
+  padding: 1rem;
+  background-color: #e8f0fe;
+  border-radius: 8px;
+  font-style: italic;
+  color: #555;
 }
+
+
+header ul {
+  list-style: none;
+  padding: 1rem;
+  background-color: #004080;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+header ul li {
+  margin-right: 1rem;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 1rem;
+}
+
+header ul li a:hover {
+  text-decoration: underline;
+}
+
+
+.logo {
+  font-size: 2rem;
+  color: teal;
+  padding-right: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+  background-color: #ddd;
+  margin-top: 1rem;
+}
+
