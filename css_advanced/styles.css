@@ -219,5 +219,41 @@ nav a {
   color: #444;
 }
 
+.faq {
+  background-color: #fff;
+  padding: 60px 20px;
+}
+
+.faq .section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.faq-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+
+.faq-item h3 {
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+
 
 
