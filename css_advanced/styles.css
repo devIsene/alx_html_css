@@ -65,3 +65,46 @@ nav a {
 .btn-register:hover {
   background-color: #a958e8;
 }
+
+.testimonial {
+  background-color: #C271FF; /* Purple background */
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial-container {
+  display: flex;
+  align-items: center;
+  max-width: 900px;
+  gap: 40px;
+  color: white;
+}
+
+.testimonial-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonial-text {
+  max-width: 600px;
+}
+
+.testimonial-text .quote {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.testimonial-text .name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.testimonial-text .role {
+  font-style: italic;
+  opacity: 0.8;
+}
+
